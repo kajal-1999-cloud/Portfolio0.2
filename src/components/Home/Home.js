@@ -4,6 +4,7 @@ import homeLogo from "../../assets/4759502.jpg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import   "./style.css";
 
 function Home() {
   return (

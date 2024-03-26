@@ -1,5 +1,6 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
+import   "./style.css";
 
 function Type() {
   return (
@@ -8,7 +9,7 @@ function Type() {
         strings: [
           "Frontend Developer",
           "MERN Stack Developer",
-          "web developer",
+          "Web Developer",
           
         ],
         autoStart: true,

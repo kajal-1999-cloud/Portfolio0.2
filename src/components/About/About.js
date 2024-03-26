@@ -1,11 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
-import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../assets/about.png";
+import laptopImg from "../../assets/about (2).jpg";
 import Toolstack from "./Toolstack";
+import   "./About.css";
 
 function About() {
   return (
@@ -28,7 +28,7 @@ function About() {
           </Col>
           <Col
             md={5}
-            style={{ paddingTop: "120px", paddingBottom: "50px" }}
+            style={{ padding: "48px 25px" }}
             className="about-img"
           >
             <img src={laptopImg} alt="about" className="img-fluid" />
@@ -45,7 +45,6 @@ function About() {
         </h1>
         <Toolstack />
 
-        <Github />
       </Container>
     </Container>
   );

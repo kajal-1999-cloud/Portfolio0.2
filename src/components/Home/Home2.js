@@ -5,37 +5,39 @@ import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
   AiOutlineTwitter,
-  AiFillInstagram,
+  AiFillInstagram,AiFillMail 
 } from "react-icons/ai";
+
 import { FaLinkedinIn } from "react-icons/fa";
+import   "./style.css";
 
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
-        <Row>
+        <Row className="homeAbout">
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
+            <h1 style={{ fontSize: "2.6em", textAlign:"start" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
               I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♀️
+              something 🤷‍♀️
               <br />
-              <br />I am fluent in classics like
+              <br />I am fluent in 
               <i>
-                <b className="purple"> HTML,CSS, Javascript. </b>
+                <b className="purple"> HTML , {"  "} CSS , Javascript, ReactJS </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My field of Interest's are developing &nbsp;
               <>
                 <b className="purple">Web Technologies and Products</b>
                
               </>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
+             I also apply my passion for developing products
               with <b className="purple">Node.js</b> and
               <i>
                 <b className="purple">
@@ -51,7 +53,7 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={myImg} className="img-fluid myself" alt="avatar" />
             </Tilt>
           </Col>
         </Row>
@@ -93,6 +95,16 @@ function Home2() {
                   <AiFillInstagram />
                 </a>
               </li>
+              {/* <li className="social-icons">
+                <a
+                  href="kajalg1401@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <AiFillMail  />
+                </a>
+              </li> */}
             </ul>
           </Col>
         </Row>

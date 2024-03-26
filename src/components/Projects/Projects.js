@@ -1,40 +1,115 @@
 import React from "react";
-import Card from "react-bootstrap/Card";
-import Button from "react-bootstrap/Button";
-import { CgWebsite } from "react-icons/cg";
-import { BsGithub } from "react-icons/bs";
+import { Container, Row, Col, AccordionHeader } from "react-bootstrap";
+import ProjectCard from "./ProjectCards";
+import Particle from "../Particle";
+import HighWaves from "../../assets/Highwaves.png";
+import CryptoAstic from "../../assets/cryptoAstic.png";
+import Shopping from "../../assets/shopping.png";
+import ChatApp from "../../assets/chatroom_app.png";
+import TodoBackend from "../../assets/Todo_Backend.png";
 
-function ProjectCards(props) {
+function Projects() {
   return (
-    <Card className="project-card-view">
-      <Card.Img variant="top" src={props.imgPath} alt="card-img" />
-      <Card.Body>
-        <Card.Title>{props.title}</Card.Title>
-        <Card.Text style={{ textAlign: "justify" }}>
-          {props.description}
-        </Card.Text>
-        <Button variant="primary" href={props.ghLink} target="_blank">
-          <BsGithub /> &nbsp;
-          {props.isBlog ? "Blog" : "GitHub"}
-        </Button>
-        {"\n"}
-        {"\n"}
+    <Container fluid className="project-section">
+      <Particle />
+      <Container>
+        <h1 className="project-heading">
+          My Recent <strong className="purple">Works </strong>
+        </h1>
+        <p style={{ color: "white" }}>
+          Here are a few projects I've worked on recently.
+        </p>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={HighWaves}
+              title="HighWaves"
+              description="High waves is an podcast app. where user can. create own podcast explore listen famous podcast ."
+              ghLink="https://github.com/kajal-1999-cloud/podcast_app"
+              demoLink="https://podcast-app-nine-red.vercel.app/home/"
+            />
+          </Col>
 
-        {/* If the component contains Demo link and if it's not a Blog then, it will render the below component  */}
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={CryptoAstic}
+              title="CryptoAstic"
+              description="This website provides user information about the cypto market. user can analyze, compare, track the crypto coin."
+              ghLink="https://github.com/kajal-1999-cloud/CryptoTracker"
+              demoLink="https://crypto-tracker-five-sigma.vercel.app/"
+            />
+          </Col>
 
-        {!props.isBlog && props.demoLink && (
-          <Button
-            variant="primary"
-            href={props.demoLink}
-            target="_blank"
-            style={{ marginLeft: "10px" }}
-          >
-            <CgWebsite /> &nbsp;
-            {"Demo"}
-          </Button>
-        )}
-      </Card.Body>
-    </Card>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Shopping}
+              title="My-Online-Store"
+              description="It's an simple basic ecommerce store using HTML, CSS, JavaScript where user can explore products save their favourites and buy the products"
+              ghLink="https://github.com/kajal-1999-cloud/Shoping_Cart2"
+              demoLink="https://kajal-1999-cloud.github.io/Shoping_Cart2/"              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ChatApp}
+              title="Chat App"
+              description="Its a simple real time chat app build using Socket.IO . user can chat realtime."
+              ghLink="https://github.com/kajal-1999-cloud/Real_Time_Chat-App"
+              demoLink=""
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={TodoBackend}
+              title="Todo App Backend"
+              description="A simple todo app made using nodeJS, expressJS, mongoDB, vueJS. it includes session base Authentication, rate Limiting0, functionality of add, delete, edit, show more,  logout, logout from all devices."
+              ghLink="https://github.com/kajal-1999-cloud/Todo_backend"
+            />
+          </Col>
+
+          {/* <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bitsOfCode}
+              title="Calculator"
+              description="Built a basic calculator ."
+              ghLink="https://github.com/kajal-1999-cloud/drive-calculator"
+            />
+          </Col> */}
+        </Row>
+      </Container>
+    </Container>
   );
 }
-export default ProjectCards;
+
+export default Projects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
