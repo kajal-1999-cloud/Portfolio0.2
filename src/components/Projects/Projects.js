@@ -42,6 +42,15 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={bitsOfCode}
+              title="ShopInfy"
+              description="Ecommerce app using ReactJS, Redux, Firebase, RazorPay, Tailwind, Material UI, Context API . User can search their product, see the Description of the product, buy, pay . Products in the portal is added using Admin dashboard by firebase."
+              ghLink="https://github.com/kajal-1999-cloud/drive-calculator"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={Shopping}
               title="My-Online-Store"
               description="It's an simple basic ecommerce store using HTML, CSS, JavaScript where user can explore products save their favourites and buy the products"
@@ -69,14 +78,7 @@ function Projects() {
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={bitsOfCode}
-              title="Calculator"
-              description="Built a basic calculator ."
-              ghLink="https://github.com/kajal-1999-cloud/drive-calculator"
-            />
-          </Col> */}
+        
         </Row>
       </Container>
     </Container>

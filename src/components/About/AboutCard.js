@@ -14,7 +14,8 @@ function AboutCard() {
             <br />
              I'm MERN stack developer and a passionate coder
             <br />
-            I have completed my Master's in Finance and Economics but eventually explored the field of development and landed myself in the coding journey to become a coder, developer and problem solver
+            {/* I have completed my Master's in Finance and Economics but  */}
+            I explored the field of development and landed myself in the coding journey to become a coder, developer and problem solver
             <br />
             <br />
           
