@@ -7,6 +7,7 @@ import CryptoAstic from "../../assets/cryptoAstic.png";
 import Shopping from "../../assets/shopping.png";
 import ChatApp from "../../assets/chatroom_app.png";
 import TodoBackend from "../../assets/Todo_Backend.png";
+import ShoInfy from "../../assets/shopinfy.png";
 
 function Projects() {
   return (
@@ -42,10 +43,11 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={ShoInfy}
               title="ShopInfy"
               description="Ecommerce app using ReactJS, Redux, Firebase, RazorPay, Tailwind, Material UI, Context API . User can search their product, see the Description of the product, buy, pay . Products in the portal is added using Admin dashboard by firebase."
-              ghLink="https://github.com/kajal-1999-cloud/drive-calculator"
+              ghLink ="https://github.com/kajal-1999-cloud/ShopInfy_Store"              
+              demoLink="https://shop-infy-store-mo5u.vercel.app/"
             />
           </Col>
 
