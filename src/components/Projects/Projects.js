@@ -8,6 +8,7 @@ import Shopping from "../../assets/shopping.png";
 import ChatApp from "../../assets/chatroom_app.png";
 import TodoBackend from "../../assets/Todo_Backend.png";
 import ShoInfy from "../../assets/shopinfy.png";
+import BloggerSpace from "../../assets/bloggerspace.png";
 
 function Projects() {
   return (
@@ -17,10 +18,30 @@ function Projects() {
         <h1 className="project-heading">
           My Recent <strong className="purple">Works </strong>
         </h1>
+       
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={BloggerSpace}
+              title="bloggerspace"
+              description="8loggerSpace is my Full Stack Project where user can influence lives and lifeStyles by creating personal Blogs.user can also read and like amazing blogs of their favourite category and many more..."
+              ghLink="https://github.com/kajal-1999-cloud/blog_backend"
+              demoLink="https://blog-frontend-gamma-bice.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ShoInfy}
+              title="ShopInfy"
+              description="Ecommerce app using ReactJS, Redux, Firebase, RazorPay, Tailwind, Material UI, Context API . User can search their product, see the Description of the product, buy, pay . Products in the portal is added using Admin dashboard by firebase."
+              ghLink ="https://github.com/kajal-1999-cloud/ShopInfy_Store"              
+              demoLink="https://shop-infy-store-mo5u.vercel.app/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={HighWaves}
@@ -41,16 +62,8 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={ShoInfy}
-              title="ShopInfy"
-              description="Ecommerce app using ReactJS, Redux, Firebase, RazorPay, Tailwind, Material UI, Context API . User can search their product, see the Description of the product, buy, pay . Products in the portal is added using Admin dashboard by firebase."
-              ghLink ="https://github.com/kajal-1999-cloud/ShopInfy_Store"              
-              demoLink="https://shop-infy-store-mo5u.vercel.app/"
-            />
-          </Col>
-
+         
+{/* 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Shopping}
@@ -59,7 +72,7 @@ function Projects() {
               ghLink="https://github.com/kajal-1999-cloud/Shoping_Cart2"
               demoLink="https://kajal-1999-cloud.github.io/Shoping_Cart2/"              
             />
-          </Col>
+          </Col> */}
 
           <Col md={4} className="project-card">
             <ProjectCard
