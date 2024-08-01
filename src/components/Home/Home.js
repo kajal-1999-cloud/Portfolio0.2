@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../assets/fullImage.jpeg";
+import homeLogo from "../../assets/WhatsApp Image 2024-08-01 at 10.08.04.jpeg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
