@@ -5,7 +5,7 @@
     padding-top: 110px !important;
     padding-bottom: 30px !important;
     background-image: var(--section-background-color) !important;
-    color: white !important;
+    color: transparent !important;
   }
   
   .resume {
