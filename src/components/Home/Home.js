@@ -1,8 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../assets/img.jpeg";
+import homeLogo from "../../assets/kjl12.jpeg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
+import Tilt from "react-parallax-tilt";
 import Type from "./Type";
 import   "./style.css";
 
@@ -31,13 +32,15 @@ function Home() {
               </div>
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 20 }}>
+            <Col md={4} style={{ paddingBottom: 20 }}>
+             <Tilt>
               <img
                 src={homeLogo}
                 alt="home pic"
-                className="img-fluid"
-                style={{ maxHeight: "550px", borderRadius:"160px" }}
+                className="img-fluid my-3 mx-5"
+                style={{ maxWidth: "340px", borderRadius:"220px" }}
               />
+              </Tilt>
             </Col>
           </Row>
         </Container>
