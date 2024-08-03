@@ -21,12 +21,12 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
+              I fell in love with programming and deep dive into the world of coding.
               something 🤷‍♀️
               <br />
               <br />I am fluent in 
               <i>
-                <b className="purple"> HTML , {"  "} CSS , Javascript, ReactJS </b>
+                <b className="purple"> HTML, {"  "} CSS, Javascript, ReactJS, NodeJS, ExpressJS</b>
               </i>
               <br />
               <br />
@@ -37,7 +37,7 @@ function Home2() {
               </>
               <br />
               <br />
-             I also apply my passion for developing products
+             I apply my passion for developing products
               with <b className="purple">Node.js</b> and
               <i>
                 <b className="purple">
