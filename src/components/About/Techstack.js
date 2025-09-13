@@ -6,8 +6,9 @@ import {
   DiNodejs,
   DiMongodb,
   DiJava,
+  DiMysql,
 } from "react-icons/di";
-import { SiFirebase } from "react-icons/si";
+import { SiFirebase, SiKnative, SiNativescript } from "react-icons/si";
 import "./About.css";
 
 function Techstack() {
@@ -16,7 +17,7 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
       </Col>
-    
+
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
       </Col>
@@ -24,8 +25,14 @@ function Techstack() {
         <DiReact />
       </Col>
 
+
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
+      </Col>
+
+
+      <Col xs={4} md={2} className="tech-icons">
+        <DiMysql />
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
