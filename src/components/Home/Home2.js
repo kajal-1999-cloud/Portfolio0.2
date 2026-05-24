@@ -21,34 +21,36 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and deep dive into the world of coding.
-              something 🤷‍♀️
+              I Accidently fell in love with programming and deep dive into the world of coding.
+        
               <br />
               <br />I am fluent in 
               <i>
-                <b className="purple"> HTML, {"  "} CSS, Javascript, ReactJS, NodeJS, ExpressJS</b>
+                <b className="purple"> HTML, {"  "} CSS, Javascript, ReactJS,NextJS, Redux, NodeJS, ExpressJS, SQL </b>
               </i>
               <br />
               <br />
-              My field of Interest's are developing &nbsp;
-              <>
-                <b className="purple">Web Technologies and Products</b>
+              My field of Interest's are &nbsp;
+              <><br/>
+                <b className="purple">Building highly interactive Web and Mobile Applications</b><br/>
+                <b className="purple">Work On complex Scalable architectural flows.</b><br/>
+                <b className="purple">Designing 3D animations .</b>
                
               </>
               <br />
               <br />
-             I apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js</b>
-              </i>
+              {/* I apply my passion for developing products
+                with <b className="purple">Node.js</b> and
+                <i>
+                  <b className="purple">
+                    {" "}
+                    Modern Javascript Library and Frameworks
+                  </b>
+                </i> */}
+              {/* &nbsp; like */}
+              {/* <i> */}
+                {/* <b className="purple"> React.js</b> */}
+              {/* </i> */}
             </p>
           </Col>
           <Col md={4} className="myAvtar">
