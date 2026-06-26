@@ -8,7 +8,7 @@ import {
   DiJava,
   DiMysql,
 } from "react-icons/di";
-import { SiFirebase, SiKnative, SiNativescript } from "react-icons/si";
+import { SiFirebase } from "react-icons/si";
 import "./About.css";
 
 function Techstack() {

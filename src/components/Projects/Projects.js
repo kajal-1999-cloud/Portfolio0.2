@@ -1,10 +1,9 @@
 import React from "react";
-import { Container, Row, Col, AccordionHeader } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import HighWaves from "../../assets/Highwaves.png";
 import CryptoAstic from "../../assets/cryptoAstic.png";
-import Shopping from "../../assets/shopping.png";
 import ChatApp from "../../assets/chatroom_app.png";
 import TodoBackend from "../../assets/Todo_Backend.png";
 import ShoInfy from "../../assets/shopinfy.png";
