@@ -9,6 +9,7 @@ import ChatApp from "../../assets/chatroom_app.png";
 import TodoBackend from "../../assets/Todo_Backend.png";
 import ShoInfy from "../../assets/shopinfy.png";
 import BloggerSpace from "../../assets/bloggerspace.png";
+import fin_track from "../../assets/fin_track.png";
 
 function Projects() {
   return (
@@ -23,11 +24,20 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={fin_track}
+              title="Finance Tracker"
+              description="Finance Tracker is a Full Stack AI-powered personal finance management application where users can manage multiple accounts, track income and expenses, scan receipts using AI, set monthly budgets, visualize spending with interactive charts, receive automated email alerts and reports, and securely manage transactions with authentication, rate limiting, and bot protection."
+              ghLink="https://github.com/kajal-1999-cloud/finance-app-next"
+              demoLink="https://finance-app-next-eta.vercel.app/"
+            />
+          </Col>
           
         <Col md={4} className="project-card">
             <ProjectCard
               imgPath={BloggerSpace}
-              title="bloggerspace"
+              title="Bloggerspace"
               description="8loggerSpace is my Full Stack Project where user can influence lives and lifeStyles by creating personal Blogs.user can also read and like amazing blogs of their favourite category and many more..."
               ghLink="https://github.com/kajal-1999-cloud/blog_backend"
               demoLink="https://blog-frontend-gamma-bice.vercel.app/"

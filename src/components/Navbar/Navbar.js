@@ -82,7 +82,7 @@ function NavBar() {
                 Projects
               </Nav.Link>
             </Nav.Item>
-
+{/* 
             <Nav.Item>
               <Nav.Link
                 as={Link}
@@ -91,7 +91,7 @@ function NavBar() {
               >
                 <AiOutlineSolution style={{ marginBottom: "2px" }} /> Experience
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
 
             <Nav.Item>
               <Nav.Link
